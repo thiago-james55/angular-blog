@@ -1,0 +1,15 @@
+ .container-title {
+  color: white;
+  text-align: center;
+ }
+
+ .container-title h1 {
+    margin-top: 20px;
+    font-size: 100px;
+ }
+
+ .container-title h3 {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+

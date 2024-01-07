@@ -1,0 +1,43 @@
+.container-big-card {
+    border-style: solid;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+}
+
+
+.container-big-card:hover .title-big-card h1 {
+    color: #03A062;
+}
+
+.img-big-card {
+    padding-top: 1%;
+    width: 95%;
+    height: 60%;
+    overflow: hidden;  
+}
+
+.img-big-card img {
+    width: 100%;
+    min-width: 800px;
+}
+
+
+.title-big-card, .description-big-card {
+    height: 20%;
+    padding-top: 20px;
+    color: white;
+    width: 95%;
+    text-align: center;
+}
+
+.title-big-card h1 {
+    font-size: 30px;
+}
+
+.description-big-card {
+    color: gray;
+    font-size: 20px;
+}

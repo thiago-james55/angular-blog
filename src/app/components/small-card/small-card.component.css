@@ -1,0 +1,28 @@
+.container-small-card {
+    border-style: solid;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.container-small-card {
+    width: 100%;
+}
+
+.container-small-card:hover a {
+    color: #03A062;
+}
+
+.container-small-card img {
+    width: 30%;
+}
+
+.container-small-card a {
+    width: 55%;
+    font-size: 20px;
+}

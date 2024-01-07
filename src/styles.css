@@ -2,5 +2,17 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   color: white;
    background-color: #111111;
+   border-image-slice: 1;
+   border-image-source: radial-gradient(circle, rgba(3,236,144,1) 0%, rgba(2,111,67,1) 100%);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ hr {
+  margin: 10px 0px 10px 0px;
  }

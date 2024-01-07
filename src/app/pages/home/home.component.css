@@ -1,0 +1,26 @@
+.container {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.articles {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.articles-main {
+    width: 50%;
+}
+
+.articles-others {
+    width: 40%;
+}
+
+.articles-others {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
