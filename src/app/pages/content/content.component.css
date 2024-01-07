@@ -1,0 +1,53 @@
+.container {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 1%;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+button:hover {
+    background-color: #03A062;
+}
+
+.article {
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cover {
+    margin: 1%;
+}
+
+.cover img {
+    border: 5px gray;
+    border-style: solid;
+    box-shadow:rgba(0, 128, 0,.4) 10px 10px 15px;
+}
+
+.title {
+    margin: 1%;
+}
+
+.title h1 {
+    color: #03A062;;
+}
+
+.description {
+    margin: 1%;
+}
+
+.description p {
+    color: gray;
+}
